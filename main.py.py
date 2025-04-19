@@ -109,7 +109,7 @@ def main_menu():
 
 def contact_admin_keyboard():
     keyboard = InlineKeyboardMarkup()
-    keyboard.add(InlineKeyboardButton("📩 Связаться с админом", url="https://t.me/faxa_bars"))
+    keyboard.add(InlineKeyboardButton("📩 Связаться с админом", url="https://t.me/@@@@"))
     return keyboard
 
 @dp.message_handler(commands=["start"])
